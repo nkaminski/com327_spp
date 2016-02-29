@@ -47,6 +47,8 @@ table {
   border-spacing: 0;
 }
 /* end of reset */
+/* Major second scale */
+
 p {
   padding: 10px;
   color: #00FF00;
@@ -55,22 +57,20 @@ p {
 body{
   font-family: Courier, monospace;
   font-size: 1em; /*  16px */
-  line-height: 1.3125em; /* 21px ctx 16px */
-  padding-top: 1.3125em; /* 21px ctx 16px */
+  line-height: 1.125em; 
+  padding-top: 1.125em;
   padding-left: 1em;
   padding-right: 1em;
   text-size-adjust: 100%;
-  background-color: black;
   }
 h1 {
   color: #FFFFFF;
   font-family: Courier, monospace;
-  font-size: 1.875em; /* 30px ctx 16px */
-  line-height: 1.3667em;
-  padding-top: 0.7em; /* 21px ctx 30px */
-  padding-left: 0.4667em; /* 14px ctx 30px */
-  padding-right: 0.4667em; /* 14px ctx 30px */
-  padding-bottom: 3.333em; /* 100px ctx 30px */
+  font-size: 1.802em; /* 30px ctx 16px */
+  line-height: 1em;
+  padding-top: 0.7em; 
+  padding-left: 0.4667em;
+  padding-right: 0.4667em;
+  padding-bottom: 3.333em;
   text-align: center;
-  text-decoration: underline;
   }
