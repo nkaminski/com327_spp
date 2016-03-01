@@ -1,76 +1,103 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
-   License: none (public domain)
-*/
+License: none (public domain)
+ */
 
 html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	b, u, i, center,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td,
+	article, aside, canvas, details, embed, 
+	figure, figcaption, footer, header, hgroup, 
+	menu, nav, output, ruby, section, summary,
+	time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+	font-size: 100%;
+font: inherit;
+      vertical-align: baseline;
+	}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-  display: block;
-}
+	footer, header, hgroup, menu, nav, section {
+display: block;
+	}
 body {
-  line-height: 1;
+	line-height: 1;
 }
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
 blockquote, q {
-  quotes: none;
+quotes: none;
 }
 blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
-  content: none;
-}
+	q:before, q:after {
+content: '';
+content: none;
+	}
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 /* end of reset */
 /* Major second scale */
 
 p {
-  padding: 10px;
-  color: #00FF00;
-  font-weight: 500;
-  }
+	font-weight: 500;
+padding: 1em;
+}
 body{
-  font-family: Courier, monospace;
-  font-size: 1em; /*  16px */
-  line-height: 1.125em; 
-  padding-top: 1.125em;
-  padding-left: 1em;
-  padding-right: 1em;
-  text-size-adjust: 100%;
-  }
+	font-size: 1em; /*  16px */
+	line-height: 1.25em; 
+	padding-top: 1.125em;
+	padding-left: 1em;
+	padding-right: 1em;
+	background-color: #e6ffe6;
+	text-size-adjust: 100%;
+}
+img {
+	 display: block; /* Images display inline by default */
+	 max-width: 100%;
+	 padding-bottom: 0em;
+}
 h1 {
-  color: #FFFFFF;
-  font-family: Courier, monospace;
-  font-size: 1.802em; /* 30px ctx 16px */
-  line-height: 1em;
-  padding-top: 0.7em; 
-  padding-left: 0.4667em;
-  padding-right: 0.4667em;
-  padding-bottom: 3.333em;
-  text-align: center;
-  }
+       color: #000000;
+       font-family: Courier, monospace;
+       font-size: 1.802em; /* 30px ctx 16px */
+       line-height: 1em;
+       padding-top: 0.7em; 
+       padding-left: 0.4667em;
+       padding-right: 0.4667em;
+       padding-bottom: 3.333em;
+       text-align: center;
+}
+figure {
+display: block;
+// width: 400px;
+}
+
+@media screen and (min-width: 40em) {
+#box {
+	flex-direction: row;
+	display: flex;
+}
+#lcol {
+	flex: 1 0 33%;
+        min-width: 33%;	
+}
+#mcol {
+	flex: 1 0 33%;
+	min-width: 33%
+}
+#rcol {
+	flex: 1 0 33%;
+	min-width: 33%
+}
+}
