@@ -72,7 +72,7 @@ img {
 	 padding-bottom: 0em;
 }
 h1 {
-       color: #9AD6A2;
+       color: #DDDDDD;
        font-size: 1.802em; /* 30px ctx 16px */
        line-height: 1em;
        padding-top: 0.7em; 
@@ -82,8 +82,8 @@ h1 {
        text-align: center;
 }
 h2 {
-       color: #9AD6A2;
-       font-size: 1.802em; /* 30px ctx 16px */
+       color: #DDDDDD;
+       font-size: 1.402em; /* 30px ctx 16px */
        line-height: 1em;
        padding-top: 0.7em; 
        padding-left: 0.4667em;
@@ -94,17 +94,29 @@ h2 {
 div {
 	padding: 2em;
 }
+a {
+	font-style: underline;
+	color: #FFFFFF;
+}
 figure {
 	display: block;
 	// width: 400px;
 }
-
+li {
+	padding: 0.75em;
+        color: #9AD6A2;
+	font-style: italic;
+}
 @media screen and (max-width: 30em){
 h1 {
 	font-size: 1.2em;
 }
 h2 {
 	font-size: 1em;
+}
+
+img {
+	display: none;
 }
 }
 @media screen and (min-width: 70em) {
