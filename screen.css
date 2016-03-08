@@ -59,7 +59,8 @@ body{
 	padding-top: 1.125em;
 	padding-left: 1em;
 	padding-right: 1em;
-	background-color: #e6ffe6;
+	color: #00ff00;
+	background-color: #000000;
 	text-size-adjust: 100%;
 }
 img {
@@ -89,15 +90,15 @@ display: block;
 	display: flex;
 }
 #lcol {
-	flex: 1 0 33%;
-        min-width: 33%;	
+	flex: 1 0 25%;
+        min-width: 25%;	
 }
 #mcol {
-	flex: 1 0 33%;
-	min-width: 33%
+	flex: 1 0 50%;
+	min-width: 50%
 }
 #rcol {
-	flex: 1 0 33%;
-	min-width: 33%
+	flex: 1 0 25%;
+	min-width: 25%
 }
 }
