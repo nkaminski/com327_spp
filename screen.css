@@ -128,16 +128,16 @@ li {
 	img {
 		max-width: 100%
 	}
-	#box {
+	.box {
 		flex-direction: row;
 		display: flex;
 	}
-	#lcol {
+	.lcol {
 		flex: 1 0 25%;
 		min-width: 25%;	
 	}
-	#mcol {
-		flex: 1 0 50%;
-		min-width: 50%
-	}
+	.mcol {
+-               flex: 1 0 50%;
+-               min-width: 50%
+-       }
 }
