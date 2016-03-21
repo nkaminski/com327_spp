@@ -124,19 +124,19 @@ li {
 	}
 }
 @media screen and (min-width: 60.750em) {
-/* closest value to 960 pixels in major second scale */
+/* closest value to 960 pixels in major second scale, only use flexbox if supported */
 	img {
 		max-width: 100%
 	}
-	.box {
+	.flexbox .box {
 		flex-direction: row;
 		display: flex;
 	}
-	.lcol {
+	.flexbox .lcol {
 		flex: 1 0 25%;
 		min-width: 25%;	
 	}
-	.mcol {
+	.flexbox .mcol {
 -               flex: 1 0 50%;
 -               min-width: 50%
 -       }
