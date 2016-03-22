@@ -103,7 +103,7 @@ figure {
 }
 li {
 	padding: 0.79em;
-  color: #9AD6A2;
+    	color: #9AD6A2;
 	font-style: italic;
 }
 @media screen and (max-width: 29.250em){
@@ -126,7 +126,7 @@ li {
 @media screen and (min-width: 60.750em) {
 /* closest value to 960 pixels in major second scale, only use flexbox if supported */
 	img {
-		max-width: 100%
+		max-width: 100%;
 	}
 	.flexbox .box {
 		flex-direction: row;
@@ -137,7 +137,7 @@ li {
 		min-width: 25%;	
 	}
 	.flexbox .mcol {
--               flex: 1 0 50%;
--               min-width: 50%
--       }
+        flex: 1 0 50%;
+        min-width: 50%;
+    }
 }
